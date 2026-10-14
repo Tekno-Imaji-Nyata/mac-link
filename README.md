@@ -2,11 +2,15 @@
 
 A Rust macOS desktop app for setting up a Mac mini and connecting from another Mac using **Apple Screen Sharing**, macOS SSH, and your existing Tailscale network. It does not implement or install a remote desktop server.
 
-## Download and install
-
 **[Download Mac Link for macOS — universal DMG](https://github.com/Tekno-Imaji-Nyata/mac-link/releases/download/v0.1.0/Mac-Link-0.1.0-universal.dmg)**
 
 [All releases and ZIP downloads](https://github.com/Tekno-Imaji-Nyata/mac-link/releases/latest) · [SHA-256 checksums](https://github.com/Tekno-Imaji-Nyata/mac-link/releases/download/v0.1.0/SHA256SUMS.txt) · [MIT license](LICENSE)
+
+![Mac Link walkthrough: host setup, Screen Sharing instructions, selecting and saving a Tailscale peer, verification, and the connection guide](docs/media/mac-link-demo.gif)
+
+*A 22-second tour of the app interface using example machine details. The preview shows setup, saved Macs, and verification screens; it does not demonstrate an authenticated remote desktop session.*
+
+## Download and install
 
 1. Download the DMG on the Mac where you want to use Mac Link.
 2. Open it and drag **Mac Link** onto **Applications**.
