@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0"><dict>
+  <key>CFBundleName</key><string>Mac Link</string>
+  <key>CFBundleDisplayName</key><string>Mac Link</string>
+  <key>CFBundleIdentifier</key><string>com.maclink.desktop</string>
+  <key>CFBundleExecutable</key><string>mac-link</string>
+  <key>CFBundleIconFile</key><string>MacLink</string>
+  <key>CFBundlePackageType</key><string>APPL</string>
+  <key>CFBundleShortVersionString</key><string>0.1.0</string>
+  <key>CFBundleVersion</key><string>1</string>
+  <key>LSMinimumSystemVersion</key><string>12.0</string>
+  <key>NSHighResolutionCapable</key><true/>
+  <key>NSLocalNetworkUsageDescription</key><string>Mac Link checks Screen Sharing and SSH connectivity to the Macs you select.</string>
+</dict></plist>

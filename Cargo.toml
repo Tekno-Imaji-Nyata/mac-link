@@ -1,0 +1,21 @@
+[package]
+name = "mac-link"
+version = "0.1.0"
+edition = "2024"
+rust-version = "1.89"
+description = "Native Screen Sharing and SSH companion for your Macs"
+license = "MIT"
+repository = "https://github.com/Tekno-Imaji-Nyata/mac-link"
+homepage = "https://github.com/Tekno-Imaji-Nyata/mac-link"
+readme = "README.md"
+keywords = ["macos", "screen-sharing", "tailscale", "ssh"]
+categories = ["gui", "network-programming"]
+
+[dependencies]
+eframe = { version = "0.33.3", default-features = false, features = ["default_fonts", "glow", "accesskit"] }
+serde = { version = "1", features = ["derive"] }
+serde_json = "1"
+
+[profile.release]
+lto = "thin"
+strip = true
